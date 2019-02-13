@@ -1,4 +1,4 @@
-import com.sun.media.sound.SimpleSoundbank;
+import java.util.ArrayList;
 
 public class recursividad {
     public static int potencia(int b, int e) {
@@ -18,13 +18,13 @@ public class recursividad {
     }
 
     /*
-    */
+     */
     public static void asteriscoPiramidal(int n) {
         if (n > 0) {
             for (int i = 0; i < n; i++) {
                 System.out.print("*");
             }
-            System.out.println("");
+            System.out.println();
             asteriscoPiramidal(n - 1);
         }
     }
@@ -38,28 +38,51 @@ public class recursividad {
     }
 
     public static boolean buscarRecursivo(int[] lista, int n, int index) {
-        if (lista.length == 1 && lista[0] == n) {
-            return true;
+        boolean encontrado = false;
+        if (lista.length == 1 && lista[index] == n) {
+            encontrado = true;
+        } else {
+            if (!encontrado && lista.length > index) {
+                if (lista[index] == n) {
+                    encontrado = true;
+                } else {
+                    buscarRecursivo(lista, n, ++index);
+                }
+            }
         }
-        if (lista.length < index) {
-            if (lista[index] == n) {
-                return true;
+        return encontrado;
+    }
+
+    public static ArrayList<Integer> devolverPares(int[] lista, int index, ArrayList<Integer> listaPar) {
+        if (lista.length == 1) {
+            if (lista[index] % 2 == 0) {
+                listaPar.add(lista[index]);
+                return listaPar;
             } else {
-                buscarRecursivo(lista, n, index + 1);
+                return listaPar;
             }
         } else {
-            return false;
+            if (lista.length > index) {
+                if (lista[index] % 2 == 0) {
+                    listaPar.add(lista[index]);
+                }
+                devolverPares(lista, ++index, listaPar);
+            }
         }
+        return listaPar;
     }
 
     public static void main(String[] args) {
-        // int resultado = 0;
-        // resultado = potencia(2, 2);
-        // System.out.println(resultado);
         asterisco(0);
         asteriscoPiramidal(5);
         asteriscoPiramidal2(5);
-        int[] lista = { 1, 2, 3, 4, 5, 6 };
-        System.out.println(buscarRecursivo(lista, 2, 0));
+        int[] lista = {1, 2, 3, 4, 5, 6};
+        System.out.println(buscarRecursivo(lista, 1, 0));
+        ArrayList<Integer> lista3;
+        ArrayList<Integer> lista4 = new ArrayList<>();
+        lista3 = devolverPares(lista, 0, lista4);
+        for (Integer numero : lista3) {
+            System.out.println(numero);
+        }
     }
 }
