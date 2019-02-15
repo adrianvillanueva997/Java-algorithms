@@ -39,21 +39,28 @@ public class recursividad {
 
     public static boolean buscarRecursivo(int[] lista, int n, int index) {
         boolean encontrado = false;
-        if (lista.length == 1 && lista[index] == n) {
-            encontrado = true;
+        if (lista.length == 1) {
+            if (lista[index] == n) {
+                encontrado = true;
+                return encontrado;
+            } else {
+                return encontrado;
+            }
         } else {
             if (!encontrado && lista.length > index) {
                 if (lista[index] == n) {
                     encontrado = true;
+                    return encontrado;
                 } else {
-                    buscarRecursivo(lista, n, ++index);
+                    return buscarRecursivo(lista, n, ++index);
                 }
             }
         }
         return encontrado;
     }
 
-    public static ArrayList<Integer> devolverPares(int[] lista, int index, ArrayList<Integer> listaPar) {
+    public static ArrayList<Integer> devolverPares(int[] lista,
+                                                   int index, ArrayList<Integer> listaPar) {
         if (lista.length == 1) {
             if (lista[index] % 2 == 0) {
                 listaPar.add(lista[index]);
@@ -66,7 +73,7 @@ public class recursividad {
                 if (lista[index] % 2 == 0) {
                     listaPar.add(lista[index]);
                 }
-                devolverPares(lista, ++index, listaPar);
+                return devolverPares(lista, ++index, listaPar);
             }
         }
         return listaPar;
@@ -77,11 +84,11 @@ public class recursividad {
         asteriscoPiramidal(5);
         asteriscoPiramidal2(5);
         int[] lista = {1, 2, 3, 4, 5, 6};
-        System.out.println(buscarRecursivo(lista, 1, 0));
+        System.out.println(buscarRecursivo(lista, 3, 0));
         ArrayList<Integer> lista3;
         ArrayList<Integer> lista4 = new ArrayList<>();
         lista3 = devolverPares(lista, 0, lista4);
-        for (Integer numero : lista3) {
+        for (int numero : lista3) {
             System.out.println(numero);
         }
     }
