@@ -1,3 +1,5 @@
+package src.tema1;
+
 public class divisiones {
 
     public static int divisionEntera(int dividendo, int divisor) {
@@ -23,20 +25,15 @@ public class divisiones {
         } else {
             if (divisor > dividendo) {
                 return 0;
-            } else if (dividendo > 0) {
-                return divisionEntera(dividendo - divisor, divisor) + 1;
+            } else {
+                return divisionEnteraRec(dividendo - divisor, divisor) + 1;
             }
         }
-        return 1;
     }
 
-    public static int interfazDivisiorRecursiva() {
-        int cociente = divisionEnteraRec(30, 5);
-        return cociente;
-    }
 
     public static void main(String[] args) {
         System.out.println(divisionEntera(30, 2));
-        System.out.println(interfazDivisiorRecursiva());
+        System.out.println(divisionEnteraRec(30, 2));
     }
 }
