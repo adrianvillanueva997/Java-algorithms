@@ -1,18 +1,0 @@
-
-Zsquid:S2589-"7Remove this expression which always evaluates to "true"(ë­ñëúÿÿÿÿ8Ş«ê¹-
-V
-squid:S106]"9Replace this use of System.out or System.err by a logger.(™¢Â¹8•‡Ò¾-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(‹µ‹¶ıÿÿÿÿ
-T
-squid:S106X"9Replace this use of System.out or System.err by a logger.(ñ‰×ùÿÿÿÿ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(‹µ‹¶ıÿÿÿÿ
-‘squid:S1319A"sThe type of the "listaPar" object should be an interface such as "List" rather than the implementation "ArrayList".(ë¶8şÏİ¾-
-dsquid:S1126:"AReplace this if-then-else statement by a single return statement.(½Õüÿÿÿÿ8…¾Å¾-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
-squid:S1319A"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ë¶8ÚåÁ¾-
-T
-squid:S106#"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
-jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Û†«ìúÿÿÿÿ
