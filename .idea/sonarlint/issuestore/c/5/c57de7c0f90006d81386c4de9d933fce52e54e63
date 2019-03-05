@@ -1,7 +1,7 @@
 
+Nsquid:S1481"+Remove this unused "lista3" local variable.(şÚ•¶üÿÿÿÿ8×¨È³-
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¾úáø
 V
 squid:S106"9Replace this use of System.out or System.err by a logger.(Š ÌŒ8â°®³-
 ]squid:S1854":Remove this useless assignment to local variable "lista3".(şÚ•¶üÿÿÿÿ8×¨È³-
-Nsquid:S1481"+Remove this unused "lista3" local variable.(şÚ•¶üÿÿÿÿ8×¨È³-
-esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¾úáø
 Zsquid:S2589"7Remove this expression which always evaluates to "true"(¼¼ê¤şÿÿÿÿ8Ç£Æ³-
