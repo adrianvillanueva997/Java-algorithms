@@ -1,10 +1,10 @@
 {
-    "configurations": [
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - recursividad",
-            "request": "launch",
-            "mainClass": "recursividad"
-        }
-    ]
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - recursividad",
+      "request": "launch",
+      "mainClass": "recursividad"
+    }
+  ]
 }
