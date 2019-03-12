@@ -11,3 +11,5 @@ C
 .vscode/launch.json,f/1/f14cb12fa7462cdba1e6e6e4b499bce722fe22ba
 R
 "src/tema1/src/tema2/MergeSort.java,c/c/cc9f633b83783e55cb57698ce60d58b610b03ddd
+R
+"src/tema1/src/tema2/QuickSort.java,a/b/ab14ea13d8bb2b0a4814d587d0eb4579507f51f3
