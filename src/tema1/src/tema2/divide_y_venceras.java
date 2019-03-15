@@ -69,12 +69,31 @@ public class divide_y_venceras {
         }
     }
 
+    public static boolean compararMatrices(int[][] lista1, int[][] lista2, int inicio, int fin) {
+        if (inicio == fin) {
+            int columna = 0;
+            boolean iguales = true;
+            while (columna < lista1.length && iguales) {
+                iguales = (lista1[inicio][columna] == lista2[inicio][columna]);
+                columna++;
+            }
+            return iguales;
+        } else {
+            int mitad = (inicio + fin) / 2;
+            return (compararMatrices(lista1, lista2, inicio, mitad)
+                    && compararMatrices(lista1, lista2, mitad + 1, fin));
+        }
+
+    }
+
 
     public static void main(String[] args) {
         int[] lista = {10, 21, 42, 63, 84, 55, 46, 7};
         int[] lista2 = {21, 32, 43, 10, 66, 90, 23};
         int[] lista3 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int[] lista4 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[][] lista5 = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        int[][] lista6 = {{1, 2, 3}, {4, 15, 6}, {7, 8, 9}};
 
         System.out.println(maximoDyV(lista, 0, lista.length - 1));
         System.out.println(maximoDyV(lista2, 0, lista2.length - 1));
@@ -82,6 +101,9 @@ public class divide_y_venceras {
         escribirArray(lista3, 0, lista3.length - 1);
 
         System.out.println(compararArrays(lista3, lista4, 0, lista3.length - 1));
+
+        System.out.println(compararMatrices(lista5, lista5, 0, lista5.length - 1));
+        System.out.println(compararMatrices(lista5, lista6, 0, lista5.length - 1));
 
     }
 }
