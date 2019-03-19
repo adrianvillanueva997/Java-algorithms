@@ -32,33 +32,22 @@ public class ejercicios {
     }
 
     public static int encontrarDesigualDyV(int[] lista1, int[] lista2, int inicio, int fin) {
-        if (lista1.length == lista2.length) {
+        if (inicio != fin) {
             int mitad = (inicio + fin) / 2;
-            if (lista1[mitad] != lista2[mitad] || (inicio < fin)) {
-                return mitad;
+            if (lista1[mitad] == lista2[mitad]) {
+                return encontrarDesigualDyV(lista1, lista2, mitad + 1, fin);
             } else {
-                int mitadIzq, mitadDrch;
-                mitadIzq = encontrarDesigualDyV(lista1, lista2, inicio, mitad - 1);
-                mitadDrch = encontrarDesigualDyV(lista1, lista2, mitad + 1, fin);
-                if (mitadDrch == -1 && mitadIzq == -1) {
-                    return -1;
-                } else {
-                    if (mitadDrch != -1) {
-                        return mitadDrch;
-                    } else {
-                        return mitadIzq;
-                    }
-                }
+                return encontrarDesigualDyV(lista1, lista2, inicio, mitad);
             }
         } else {
-            return -1;
+            return inicio;
         }
     }
 
     public static void main(String[] args) {
         int[] lista2 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int[] lista1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        int[] lista3 = {1, 2, 23, 4, 15, 6, 7, 8, 9, 10};
+        int[] lista3 = {1, 2, 3, 4, 5, 6, 17, 18, 19, 110};
 
         long startTime = System.nanoTime();
         encontrarDesigual(lista1, lista2);
@@ -81,15 +70,12 @@ public class ejercicios {
         endTime = System.nanoTime();
         System.out.println("4. That took " + (endTime - startTime) + " nanoseconds");
 
-        startTime = System.nanoTime();
-        encontrarDesigualDyV(lista1, lista2, 0, lista1.length - 1);
-        endTime = System.nanoTime();
-        System.out.println("5. That took " + (endTime - startTime) + " nanoseconds");
+        System.out.println(encontrarDesigualDyV(lista2, lista3, 0, lista3.length - 1));
 
         startTime = System.nanoTime();
         encontrarDesigualDyV(lista2, lista3, 0, lista3.length - 1);
         endTime = System.nanoTime();
-        System.out.println("6. That took " + (endTime - startTime) + " nanoseconds");
+        System.out.println("5. That took " + (endTime - startTime) + " nanoseconds");
 
 
     }
