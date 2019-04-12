@@ -1,8 +1,7 @@
 
+[
+squid:S1066"9Replace this use of System.out or System.err by a logger.(ÔœÙòşÿÿÿÿ8‘•æ²™-
 V
-squid:S1061"9Replace this use of System.out or System.err by a logger.(”Š8ëƒı“—-
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ÿÑğ8îË¥“—-
 V
-squid:S106/"9Replace this use of System.out or System.err by a logger.(ÿÑğ8îË¥“—-
-V
-squid:S1063"9Replace this use of System.out or System.err by a logger.(»€ûò8ã¿ú“—-
-asquid:S1226">Introduce a new variable instead of reusing the parameter "x".(»ĞÑ—úÿÿÿÿ8×ÿ‹“—-
+squid:S1064"9Replace this use of System.out or System.err by a logger.(”Š8ëƒı“—-

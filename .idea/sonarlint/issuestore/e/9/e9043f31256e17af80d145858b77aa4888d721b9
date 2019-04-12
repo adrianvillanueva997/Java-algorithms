@@ -1,0 +1,19 @@
+
+V
+squid:S106O"9Replace this use of System.out or System.err by a logger.(ìé×8ôúæ“ -
+wsquid:S2293H"YReplace the type specification in this constructor call with the diamond operator ("<>").(öÇÕ£8ûƒ„“ -
+|squid:S2293J"YReplace the type specification in this constructor call with the diamond operator ("<>").(£ú©’üÿÿÿÿ8ûƒ„“ -
+isquid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(ê¹³ü8ûƒ„“ -
+wsquid:S2293E"YReplace the type specification in this constructor call with the diamond operator ("<>").(Öòšª8ûƒ„“ -
+[
+squid:S106N"9Replace this use of System.out or System.err by a logger.(ŠÔäÊşÿÿÿÿ8ÖùÚ“ -
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ôˆ¶8åˆ÷’ -
+isquid:CommentedOutCodeLineG"<This block of commented-out lines of code should be removed.(ˆÂÎô8ûƒ„“ -
+wsquid:S2293F"YReplace the type specification in this constructor call with the diamond operator ("<>").(¹çâ8ûƒ„“ -
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“•¥¾ÿÿÿÿÿ
+[
+squid:S106P"9Replace this use of System.out or System.err by a logger.(ª²Œÿÿÿÿÿ8šÉ˜” -
+|squid:S2293K"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾Øñîÿÿÿÿÿ8ûƒ„“ -
+vsquid:S2293I"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÛÅE8ûƒ„“ -
+U
+squid:S106M"9Replace this use of System.out or System.err by a logger.(Ôì§ 8„¬­“ -

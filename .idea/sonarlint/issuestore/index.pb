@@ -13,3 +13,9 @@ R
 "src/tema1/src/tema2/MergeSort.java,c/c/cc9f633b83783e55cb57698ce60d58b610b03ddd
 R
 "src/tema1/src/tema2/QuickSort.java,a/b/ab14ea13d8bb2b0a4814d587d0eb4579507f51f3
+S
+#src/tema1/src/tema2/ejercicios.java,9/d/9dde229c8971354ad01b84be778e021689dcccfe
+G
+src/Tema3/ArbolBin.java,f/e/fe8611f2cfd6b0618e358a887ff6de45a9579103
+I
+src/Tema3/Ejercicios.java,e/9/e9043f31256e17af80d145858b77aa4888d721b9

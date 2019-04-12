@@ -1,12 +1,16 @@
 
 V
-squid:S106T"9Replace this use of System.out or System.err by a logger.(·ÁñÏ8—ã—ô”-
-V
-squid:S106O"9Replace this use of System.out or System.err by a logger.(ºúß8„·Åò”-
-V
-squid:S106P"9Replace this use of System.out or System.err by a logger.(‘ŸË8ßéÇò”-
-[
-squid:S106Q"9Replace this use of System.out or System.err by a logger.(¡¯‹ßşÿÿÿÿ8Ô›™ó”-
+squid:S106j"9Replace this use of System.out or System.err by a logger.(Ø³¥½8•æ²™-
 [
 squid:S106."9Replace this use of System.out or System.err by a logger.(¸ŠÚ÷ıÿÿÿÿ8ÒÃÃó”-
+V
+squid:S106c"9Replace this use of System.out or System.err by a logger.(‘ŸË8ßéÇò”-
+V
+squid:S106g"9Replace this use of System.out or System.err by a logger.(·ÁñÏ8—ã—ô”-
+V
+squid:S106b"9Replace this use of System.out or System.err by a logger.(ºúß8„·Åò”-
+[
+squid:S106i"9Replace this use of System.out or System.err by a logger.(·ª¡¨ÿÿÿÿÿ8•æ²™-
+[
+squid:S106d"9Replace this use of System.out or System.err by a logger.(¡¯‹ßşÿÿÿÿ8Ô›™ó”-
 jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(«˜ƒÁùÿÿÿÿ
