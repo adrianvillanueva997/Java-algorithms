@@ -1,16 +1,16 @@
 
-wsquid:S2293@"YReplace the type specification in this constructor call with the diamond operator ("<>").(Öòšª8×Õ’ -
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“•¥¾ÿÿÿÿÿ8ìÍØ’ -
 isquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(ê¹³ü8­ßï’ -
+wsquid:S2293A"YReplace the type specification in this constructor call with the diamond operator ("<>").(¹çâ8×Õ’ -
+|squid:S2293G"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾Øñîÿÿÿÿÿ8­ßï’ -
 [
 squid:S1068"9Replace this use of System.out or System.err by a logger.(†Š“Åúÿÿÿÿ8×Õ’ -
-vsquid:S2293D"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÛÅE8×Õ’ -
-isquid:CommentedOutCodeLineB"<This block of commented-out lines of code should be removed.(ˆÂÎô8­ßï’ -
-wsquid:S2293A"YReplace the type specification in this constructor call with the diamond operator ("<>").(¹çâ8×Õ’ -
-|squid:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(›¦Ÿüúÿÿÿÿ8×Õ’ -
-|squid:S2293E"YReplace the type specification in this constructor call with the diamond operator ("<>").(£ú©’üÿÿÿÿ8×Õ’ -
-|squid:S2293G"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾Øñîÿÿÿÿÿ8­ßï’ -
+wsquid:S2293C"YReplace the type specification in this constructor call with the diamond operator ("<>").(öÇÕ£8­ßï’ -
 V
 squid:S1067"9Replace this use of System.out or System.err by a logger.(×•œ²8×Õ’ -
 wsquid:S2293&"YReplace the type specification in this constructor call with the diamond operator ("<>").(¹üš8×Õ’ -
-wsquid:S2293C"YReplace the type specification in this constructor call with the diamond operator ("<>").(öÇÕ£8­ßï’ -
-~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“•¥¾ÿÿÿÿÿ8ìÍØ’ -
+|squid:S2293E"YReplace the type specification in this constructor call with the diamond operator ("<>").(£ú©’üÿÿÿÿ8×Õ’ -
+|squid:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(›¦Ÿüúÿÿÿÿ8×Õ’ -
+isquid:CommentedOutCodeLineB"<This block of commented-out lines of code should be removed.(ˆÂÎô8­ßï’ -
+vsquid:S2293D"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÛÅE8×Õ’ -
+wsquid:S2293@"YReplace the type specification in this constructor call with the diamond operator ("<>").(Öòšª8×Õ’ -

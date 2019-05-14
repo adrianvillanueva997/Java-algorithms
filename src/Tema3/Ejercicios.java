@@ -58,7 +58,7 @@ public class Ejercicios {
                 return false;
             } else {
                 return compararArboles(arbol1.hijoIzquierdo(), arbol2.hijoIzquierdo())
-                        && compararArboles(arbol1.hijoDerecho(), arbol2.hijoDerecho());
+                        && compararArboles(arbol1.hijoDerecho(),     arbol2.hijoDerecho());
             }
         }
 

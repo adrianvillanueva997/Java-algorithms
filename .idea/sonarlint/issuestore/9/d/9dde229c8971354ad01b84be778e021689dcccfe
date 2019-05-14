@@ -1,15 +1,15 @@
 
-U
-squid:S106I"9Replace this use of System.out or System.err by a logger.(À¦¦8Šæß³™-
-T
-squid:S106B"9Replace this use of System.out or System.err by a logger.(¿íþÉùÿÿÿÿ
-esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ý©ÔÉ
 O
 squid:S1067"9Replace this use of System.out or System.err by a logger.(ÛÕœ´
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ý©ÔÉ
+T
+squid:S106B"9Replace this use of System.out or System.err by a logger.(¿íþÉùÿÿÿÿ
+V
+squid:S106N"9Replace this use of System.out or System.err by a logger.(Ã—¶¹8ÿ¡ë³™-
 dsquid:S11927"MDefine a constant instead of duplicating this literal " nanoseconds" 5 times.(ÛÕœ´
+U
+squid:S106I"9Replace this use of System.out or System.err by a logger.(À¦¦8Šæß³™-
 O
 squid:S106="9Replace this use of System.out or System.err by a logger.(íÇ¦Ï
 T
 squid:S106G"9Replace this use of System.out or System.err by a logger.(àé‚ üÿÿÿÿ
-V
-squid:S106N"9Replace this use of System.out or System.err by a logger.(Ã—¶¹8ÿ¡ë³™-
