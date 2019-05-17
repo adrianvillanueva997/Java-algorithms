@@ -1,5 +1,7 @@
 package src.Tema4;
 
+import java.util.ArrayDeque;
+
 import static src.Tema4.Grafo.profundidad;
 
 public class Ejercicios {
@@ -27,6 +29,31 @@ public class Ejercicios {
         }
         return contador;
     }
+
+    public static <Clave, Info, Coste> void recAnchura(Grafo<Clave, Info, Coste> gr) {
+        if (gr.esVacio()) {
+            ArrayDeque<Clave> cola = new ArrayDeque<>();
+            Lista<Clave> noVisitados = gr.listaVertices();
+            Lista<Clave> sucesores = new Lista<>();
+            Clave v;
+            while (!noVisitados.esVacia()) {
+                v = noVisitados.consultar(1);
+                cola.add(v);
+                while (!cola.isEmpty()) {
+                    v = cola.pop();
+                    if (noVisitados.buscar(v) != 0) {
+                        System.out.println(v + " - ");
+                        noVisitados.borrar(noVisitados.buscar(v));
+                        sucesores = gr.listaSucesores(v);
+                        for (int i = 0; i <= sucesores.longitud(); i++) {
+                            cola.add(sucesores.consultar(i));
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 
     public static void main(String[] args) {
         Grafo<String, String, Integer> grafoCiudades = new Grafo<String, String, Integer>();
@@ -65,6 +92,8 @@ public class Ejercicios {
 
         System.out.println("\n*** FIN ***");
         System.out.println(contarAristas(grafoCiudades));
-        System.out.println(contarBucles(grafoCiudades ));
+        System.out.println(contarBucles(grafoCiudades));
+
+
     }
 }
