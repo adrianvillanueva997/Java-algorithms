@@ -5,11 +5,11 @@ import java.util.ArrayDeque;
 import static src.Tema4.Grafo.profundidad;
 
 public class Ejercicios {
-    public static int contarAristas(Grafo grafo) {
-        Lista<String> vertices = grafo.listaVertices(); //Lista de vertices {a,b,c,d,e,f,g,h,i...}
+    public static <Clave, Info, Coste> int contarAristas(Grafo<Clave, Info, Coste> grafo) {
+        Lista<Clave> vertices = grafo.listaVertices();
         int contador = 0;
         for (int i = 1; i <= vertices.longitud(); i++) {
-            String clave = vertices.consultar(i);
+            Clave clave = vertices.consultar(i);
             if (grafo.gradoEntrada(clave) != 0 && grafo.gradoSalida(clave) == 0) {
                 contador += 1;
             }
@@ -17,12 +17,12 @@ public class Ejercicios {
         return contador;
     }
 
-    public static int contarBucles(Grafo grafo) {
-        Lista<String> vertices = grafo.listaVertices();
+    public static <Clave, Info, Coste> int contarBucles(Grafo<Clave, Info, Coste> grafo) {
+        Lista<Clave> vertices = grafo.listaVertices();
         int contador = 0;
         for (int i = 1; i <= vertices.longitud(); i++) {
-            String clave = vertices.consultar(i);
-            Lista<String> sucesores = grafo.listaSucesores(clave);
+            Clave clave = vertices.consultar(i);
+            Lista<Clave> sucesores = grafo.listaSucesores(clave);
             if (sucesores.buscar(clave) != 0) {
                 contador += 1;
             }

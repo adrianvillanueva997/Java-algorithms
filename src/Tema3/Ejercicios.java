@@ -43,7 +43,6 @@ public class Ejercicios {
                 return 1;
             } else {
                 return contarNodosHoja(arbolBin.hijoIzquierdo()) + contarNodosHoja(arbolBin.hijoDerecho());
-
             }
         }
     }
@@ -58,11 +57,21 @@ public class Ejercicios {
                 return false;
             } else {
                 return compararArboles(arbol1.hijoIzquierdo(), arbol2.hijoIzquierdo())
-                        && compararArboles(arbol1.hijoDerecho(),     arbol2.hijoDerecho());
+                        && compararArboles(arbol1.hijoDerecho(), arbol2.hijoDerecho());
             }
         }
-
     }
+
+    public static int sumarDatosNodo(ArbolBin<Integer> arbol) {
+        if (arbol.esVacio()) {
+            return 0;
+        } else {
+            int hijoDerecho = sumarDatosNodo(arbol.hijoDerecho());
+            int hijoIzq = sumarDatosNodo(arbol.hijoIzquierdo());
+            return arbol.raiz() + hijoDerecho + hijoIzq;
+        }
+    }
+
 
     public static void main(String[] args) {
         //ArbolBin<Integer> g = new ArbolBin<Integer>(new ArbolBin<Character>(),'G',new ArbolBin<Character>());
@@ -78,6 +87,7 @@ public class Ejercicios {
         System.out.println("Suma de los nodos: " + sumarNodos(a));
         System.out.println("Suma de los nodos pares:" + contarParesNodo(a));
         System.out.println("Suma de los nodos hoja: " + contarNodosHoja(a));
+        System.out.println("Suma de los datos del arbol: " + sumarDatosNodo(a));
 
     }
 

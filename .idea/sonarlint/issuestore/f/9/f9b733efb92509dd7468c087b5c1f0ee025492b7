@@ -1,18 +1,23 @@
 
-T
-squid:S106^"9Replace this use of System.out or System.err by a logger.(ò¦ÿéøÿÿÿÿ
-msquid:S00119!"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(¸¥œ—ÿÿÿÿÿ8®•é±¬-
+hsquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(¼ä”8úíœÍ­-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼áü½
+hsquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(éÂõÏ8ÏÈ›Í­-
+psquid:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÌË¶Ğ
+hsquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(éÂõÏ8ÏÈ›Í­-
+fsquid:S00119!"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(¸¥œ—ÿÿÿÿÿ
+O
+squid:S106-"9Replace this use of System.out or System.err by a logger.(‹Í
+Tsquid:S1854%"=Remove this useless assignment to local variable "sucesores".(Ìß·â
+fsquid:S00119!"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(¸¥œ—ÿÿÿÿÿ
 O
 squid:S106]"9Replace this use of System.out or System.err by a logger.( ùúÆ
-msquid:S00119!"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(¸¥œ—ÿÿÿÿÿ8®•é±¬-
-V
-squid:S106-"9Replace this use of System.out or System.err by a logger.(‹Í8İâİ±¬-
-msquid:S00119!"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(¸¥œ—ÿÿÿÿÿ8®•é±¬-
-psquid:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÌË¶Ğ
 O
 squid:S106_"9Replace this use of System.out or System.err by a logger.(°¯Ùï
-[squid:S1854%"=Remove this useless assignment to local variable "sucesores".(Ìß·â8û‡‰²¬-
-rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼áü½
+hsquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(¼ä”8úíœÍ­-
 T
 squid:S106Y"9Replace this use of System.out or System.err by a logger.(”ö¿òşÿÿÿÿ
-gsquid:CommentedOutCodeLine	"<This block of commented-out lines of code should be removed.(²Õ¡¡şÿÿÿÿ
+T
+squid:S106^"9Replace this use of System.out or System.err by a logger.(ò¦ÿéøÿÿÿÿ
+hsquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(¼ä”8úíœÍ­-
+fsquid:S00119!"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(¸¥œ—ÿÿÿÿÿ
+hsquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(éÂõÏ8ÏÈ›Í­-

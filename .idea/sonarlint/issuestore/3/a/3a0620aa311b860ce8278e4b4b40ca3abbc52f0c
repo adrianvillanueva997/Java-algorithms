@@ -1,36 +1,36 @@
 
-3squid:S1643¡"Use a StringBuilder instead.(î‡òK
-@squid:S1125¼")Remove the literal "false" boolean value.(¹ßŸ/
-9squid:S1643Ÿ"Use a StringBuilder instead.(Íş‰éùÿÿÿÿ
-Tsquid:S2589Ÿ"7Remove this expression which always evaluates to "true"(•şø÷ùÿÿÿÿ
-Usquid:S1197Ã"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
-bsquid:S00119¨"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Ûâ„
-asquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Î°øÀ
-usquid:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(®›ëõûÿÿÿÿ
 4squid:S1643"Use a StringBuilder instead.(áÃãÉ
+9squid:S1643Ÿ"Use a StringBuilder instead.(Íş‰éùÿÿÿÿ
+3squid:S1643¡"Use a StringBuilder instead.(î‡òK
+Usquid:S1197Ã"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+usquid:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(®›ëõûÿÿÿÿ
 psquid:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").(ÉÿûÁ
+vsquid:S2293è"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿ‘åÄøÿÿÿÿ
 vsquid:S2293ù"YReplace the type specification in this constructor call with the diamond operator ("<>").(¬‚»¸ùÿÿÿÿ
-U
-squid:S106½"9Replace this use of System.out or System.err by a logger.(æ“¡õÿÿÿÿÿ
+qsquid:S2293’"YReplace the type specification in this constructor call with the diamond operator ("<>").(°ø€€
+qsquid:S2293Ä"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÌË¶Ğ
+csquid:CommentedOutCodeLineä"<This block of commented-out lines of code should be removed.(ãèáø
 P
 squid:S106ª"9Replace this use of System.out or System.err by a logger.(”€½‘
-qsquid:S2293’"YReplace the type specification in this constructor call with the diamond operator ("<>").(°ø€€
+P
+squid:S106¬"9Replace this use of System.out or System.err by a logger.(à××‰
 U
 squid:S106¯"9Replace this use of System.out or System.err by a logger.(£èÓÊıÿÿÿÿ
 U
+squid:S106½"9Replace this use of System.out or System.err by a logger.(æ“¡õÿÿÿÿÿ
+U
 squid:S106â"9Replace this use of System.out or System.err by a logger.(”ö¿òşÿÿÿÿ
-asquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Î°øÀ
-bsquid:S00119¹"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Ñ–åÁ
-rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼áü½
 P
 squid:S106ñ"9Replace this use of System.out or System.err by a logger.( ùúÆ
-csquid:CommentedOutCodeLineä"<This block of commented-out lines of code should be removed.(ãèáø
+@squid:S1125¼")Remove the literal "false" boolean value.(¹ßŸ/
+Tsquid:S2589Ÿ"7Remove this expression which always evaluates to "true"(•şø÷ùÿÿÿÿ
+asquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Î°øÀ
+asquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Î°øÀ
 asquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Î°øÀ
 bsquid:S00119¨"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Ûâ„
-P
-squid:S106¬"9Replace this use of System.out or System.err by a logger.(à××‰
-vsquid:S2293è"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿ‘åÄøÿÿÿÿ
-bsquid:S00119¹"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Ñ–åÁ
 bsquid:S00119¨"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Ûâ„
-qsquid:S2293Ä"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÌË¶Ğ
+bsquid:S00119¨"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Ûâ„
 bsquid:S00119¹"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Ñ–åÁ
+bsquid:S00119¹"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Ñ–åÁ
+bsquid:S00119¹"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Ñ–åÁ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼áü½
