@@ -1,7 +1,5 @@
 package src.Tema5;
 
-import java.util.ArrayList;
-
 public class Avance_Rapido {
 
     public static int seleccionar(float[] monedas, float cantidad, float acumulado) {
@@ -35,15 +33,22 @@ public class Avance_Rapido {
                 solucion[x]++;
             }
         }
-        if (!sinSolucion) {
-            int[] sinSol = new int[]{-1};
-            return sinSol;
+        if (sinSolucion) {
+            solucion[0] = -1;
         }
         return solucion;
     }
 
     public static void main(String[] args) {
-
+        float[] monedas = {2f, 1f, 0.5f, 0.20f, 0.10f, 0.05f, 0.02f, 0.01f};
+        float cantidad = 11.30f;
+        int[] cambio = funcionCambio(monedas, cantidad);
+        if (cambio[0] == -1) {
+            System.out.println("No hay solucion");
+        } else {
+            for (int i = 0; i < cambio.length; i++) {
+                System.out.println("Monedas de " + monedas[i] + "€ : " + cambio[i]);
+            }
+        }
     }
-
 }

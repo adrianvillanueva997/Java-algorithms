@@ -1,21 +1,21 @@
 
-psquid:S2293N"YReplace the type specification in this constructor call with the diamond operator ("<>").(Öòšª
-[
-squid:S106Z"9Replace this use of System.out or System.err by a logger.(‰¡¶ˆÿÿÿÿÿ8¹ğÏÌ­-
 wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“•¥¾ÿÿÿÿÿ
-psquid:S2293Q"YReplace the type specification in this constructor call with the diamond operator ("<>").(öÇÕ£
 psquid:S2293O"YReplace the type specification in this constructor call with the diamond operator ("<>").(¹çâ
-usquid:S2293S"YReplace the type specification in this constructor call with the diamond operator ("<>").(£ú©’üÿÿÿÿ
-usquid:S2293T"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾Øñîÿÿÿÿÿ
-N
-squid:S106V"9Replace this use of System.out or System.err by a logger.(Ôì§ 
-O
-squid:S106X"9Replace this use of System.out or System.err by a logger.(ìé×
-bsquid:CommentedOutCodeLineP"<This block of commented-out lines of code should be removed.(ˆÂÎô
-osquid:S2293R"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÛÅE
-bsquid:CommentedOutCodeLineM"<This block of commented-out lines of code should be removed.(ê¹³ü
-T
-squid:S106W"9Replace this use of System.out or System.err by a logger.(ŠÔäÊşÿÿÿÿ
 T
 squid:S106Y"9Replace this use of System.out or System.err by a logger.(ª²Œÿÿÿÿÿ
+bsquid:CommentedOutCodeLineM"<This block of commented-out lines of code should be removed.(ê¹³ü
+N
+squid:S106V"9Replace this use of System.out or System.err by a logger.(Ôì§ 
+psquid:S2293Q"YReplace the type specification in this constructor call with the diamond operator ("<>").(öÇÕ£
+osquid:S2293R"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÛÅE
 bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ôˆ¶
+psquid:S2293N"YReplace the type specification in this constructor call with the diamond operator ("<>").(Öòšª
+usquid:S2293S"YReplace the type specification in this constructor call with the diamond operator ("<>").(£ú©’üÿÿÿÿ
+usquid:S2293T"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾Øñîÿÿÿÿÿ
+bsquid:CommentedOutCodeLineP"<This block of commented-out lines of code should be removed.(ˆÂÎô
+T
+squid:S106W"9Replace this use of System.out or System.err by a logger.(ŠÔäÊşÿÿÿÿ
+O
+squid:S106X"9Replace this use of System.out or System.err by a logger.(ìé×
+[
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(‰¡¶ˆÿÿÿÿÿ8¹ğÏÌ­-
